@@ -13,4 +13,11 @@ text = ('Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
 'Praesent ut justo eu erat luctus facilisis eu at enim. '
 'Vivamus auctor sapien in tellus dapibus convallis.')
 
-print(text)
+# print(text)
+
+search_word = input('Upisite rijec koju trazite u tekstu: ')
+
+if search_word.upper() in text.upper():
+    print(f'Rijec {search_word} postoji u tekstu!')
+else:
+    print(f'Rijec {search_word} NEpostoji u tekstu!')
