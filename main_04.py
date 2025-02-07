@@ -38,7 +38,7 @@ match day_in_week.lower():
     case 'četvrtak':
         print(f'{day_in_week.capitalize()} je radni dan.')
     case 'petak':
-        print(f'{day_in_week.capitalize()} je radni dan.')
+        print(f'{day_in_week.capitalize()} je VIKEND.')
     case 'subota':
         print(f'{day_in_week.capitalize()} je vikend.')
     case 'nedjelja':
