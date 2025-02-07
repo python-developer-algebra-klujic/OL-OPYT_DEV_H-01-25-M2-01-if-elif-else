@@ -23,7 +23,7 @@ day_in_week = input('Upisite naziv dana u tjednu (hr naziv): ')
 # Drugi nacin za ovako dugacke IF uvjete je match / case
 #   -> u drugim programskim jezicima koristi se naziv switch / case
 #   match / case je ukljucen u Python tek od verzije 3.10,
-#   ako koristite stariju verziju onda ovo NECE raditi!!!
+#   ako koristite stariju verziju onda ovo nece raditi!!!
 
 
 #region MATCH
@@ -38,7 +38,7 @@ match day_in_week.lower():
     case 'četvrtak':
         print(f'{day_in_week.capitalize()} je radni dan.')
     case 'petak':
-        print(f'{day_in_week.capitalize()} je VIKEND.')
+        print(f'{day_in_week.capitalize()} je radni dan.')
     case 'subota':
         print(f'{day_in_week.capitalize()} je vikend.')
     case 'nedjelja':
